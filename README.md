@@ -11,7 +11,7 @@ In this repository we have 2 scripts :
 
 - `msa2nexus.py` : This script convert a FASTA file in input into a NEXUS one in output.
 
-The usage of this script is :
+<n>The usage of this script is :<n>
 
 **python msa2nexus.py input_file_path output_file_path**
 
