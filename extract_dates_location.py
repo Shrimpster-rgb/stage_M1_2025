@@ -60,7 +60,7 @@ def get_coords():
     
     df_transposed = pd.DataFrame(dict_of_loc).T.reset_index()
     df_transposed.columns = ['country', 'latitude', 'longitude']
-    print(df_transposed)
+    #print(df_transposed)
     with open(output_coords, 'w') as file:
         file.write(df_transposed.to_csv(index=False, sep=","))
 
