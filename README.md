@@ -6,6 +6,18 @@ The intership consist in a phylodynamic study of the dengue virus using the open
 This software use Bayesian inference to create numerous possible tree. Those tree can be used afterward to reconstruct all the phylogeny of the virus.
 The goal of this study consist in a comparison between this method and the maximum likelihood to see if the maximum likelihood are as rosbust as the Byesian inference.
 
+# Version and packages needed
+
+Those script are write in the `Python 3.12.3` version. Be aware that if you use an older version some tools used here may be not working.
+
+To run those scripts we need the following packages :
+
+- `argparse` : Used to parse all the arguments in the command line
+- `pandas` : Used to manipulate the metadata
+- `geopy` : Used to collect all the coordinates needed for phylogeography
+- `biopython` : Used to process the FASTA file in a more compact and clear way
+
+
 # Code used 
 In this repository we have 2 scripts :
 
