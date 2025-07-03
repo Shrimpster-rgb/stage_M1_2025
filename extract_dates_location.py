@@ -6,8 +6,6 @@ Script to extract the dates, the location, and the coordinates of the countries 
 
 import argparse
 import pandas as pd
-from pandas.io.formats import style
-import geopy
 from geopy.geocoders import Nominatim
 
 
