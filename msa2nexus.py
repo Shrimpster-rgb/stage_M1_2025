@@ -20,7 +20,7 @@ filename = args.path_of_input_file
 output_filename = args.path_of_output_file
 
 
-def get_len_of_seq():
+def get_len_of_seq() -> int:
     '''Function to get the length of the sequences'''
     input_filename = filename
     len_of_seq = int()
@@ -40,7 +40,7 @@ def read_fasta() -> list[str]:
     return sequences_list
 
 
-def transform(list_of_seq: list[str]) -> str:
+def transform(list_of_seq: list[str]):
     '''Function to transform the seqences into a big str'''
     len_of_file = len(list_of_seq)
     len_of_seq = get_len_of_seq()
